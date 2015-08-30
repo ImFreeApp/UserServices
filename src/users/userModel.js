@@ -5,7 +5,7 @@ var _ = require('underscore-node');
 // setup User schema to store user information in mongoDB
 var UserSchema = new mongoose.Schema({
   creationDate: {type:Date, default: Date.now},
-  fbId: String,
+  fbId: String
 });
 
 // create new schema key based on user information retrieved from facebook
