@@ -1,5 +1,5 @@
 var User = require('./userModel');
-var _ = require('underscore');
+var _ = require('underscore-node');
 
 module.exports = {
   logUserIn: function(req, res, next){
