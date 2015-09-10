@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var Promise = require("bluebird");
-var _ = require('underscore');
+var _ = require('underscore-node');
 
 var UserSchema = new mongoose.Schema({
   creationDate: {type:Date, default: Date.now},

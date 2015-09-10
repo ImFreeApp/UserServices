@@ -15,6 +15,10 @@ Make sure mongo is running locally and run `node src/server.js`.
 
 ### Routes
 
+#### GET /api/user/
+
+Retrieve all users userData
+
 #### GET /api/user/:fbId
 
 Retrieve all userData for user with facebook id `:fbId`.
