@@ -19,7 +19,7 @@
       "url": "http://www.awesomeomar.com/"
     }
   ],
-  "license": "proprietary",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^2.10.0",
     "body-parser": "^1.13.3",
